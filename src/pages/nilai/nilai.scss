@@ -1,0 +1,40 @@
+page-nilai {
+	.tittle-hasil{
+		text-align: center;
+		margin-left: 60px;
+	}
+	p.card-header-nilai{
+		text-align: center;
+		font-weight: bold;
+
+	}
+	.score{
+		font-size: 70px;
+		
+		
+		position:absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.caption-score{
+		text-align:center;
+		padding-top: 120px;
+
+	}
+	.card-content{
+		position: relative;
+		
+		height:160px;
+	}
+	.kkm{
+		color:red;
+	}
+	.lulus{
+		color:blue;
+	}
+
+	button{
+		background:linear-gradient(to right,#3968FC,#2F42FE);
+	}
+}

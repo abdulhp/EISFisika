@@ -1,0 +1,35 @@
+<ion-header><ion-navbar></ion-navbar></ion-header>
+<ion-content padding class="body-form">
+  <div class="gambar gambar-form">
+    <img src="assets/img/icon/logo.png" alt="">
+    <p class="title">Daftar</p>
+  </div>
+  <div class="form-register home-form">
+    <ion-list>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="contact" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Nama" name="name" [(ngModel)]="userData.name"></ion-input>
+      </ion-item>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="contact" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Username" name="username" [(ngModel)]="userData.username" ></ion-input>
+      </ion-item>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="mail" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="email" placeholder="Email" name="email" [(ngModel)]="userData.email"></ion-input>
+      </ion-item>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="lock" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="password" placeholder="Password min. 6 digit!" name="password" [(ngModel)]="userData.password"></ion-input>
+      </ion-item>
+      <div class="btn-wrap">
+        <button ion-button class="btn-register" (click)="daftar()">Daftar</button>
+      </div>
+      <div class="aturan">
+        <p>Dengan mendaftar anda setuju dengan <u>Ketentuan Kami</u> dan <u>Kebijakan Pribadi</u> </p>
+      </div>
+    </ion-list>
+  </div>
+  
+
+</ion-content>

@@ -1,0 +1,108 @@
+$warnautama: #ED2B33;
+
+page-home {    
+    
+    // .kotak-login{
+    //     padding: 20px;
+    //     box-shadow: 2px 2px 15px rgb(209, 212, 216);
+    //     padding-bottom: 90px;
+    //     h4{
+    //         text-align: center;
+    //         color: #488AFF;
+    //         margin-bottom: 30px;
+    //         margin-top: 30px;
+    //         font-family: 'Oswald', sans-serif;
+    //     }
+    //     .btn-login{
+    //         font-size: 14px;
+    //         box-shadow: none;
+    //         width: 100%;
+    //        display: flex;
+    //         font-family: 'Oswald', sans-serif;
+    //     }
+    //     .btn-skip,.btn-reg{
+    //         box-shadow: none;
+    //         background-color: transparent;
+    //         color: #488AFF;
+    //         font-size: 12px;
+    //         padding: 0;
+    //         font-family: 'Oswald', sans-serif;
+            
+    //     }
+    //     .btn-skip:hover,.btn-reg:hover{
+    //         background-color: transparent;
+    //         text-decoration: underline;
+            
+    //     }
+    //     .btn-guest{
+    //         float: right;
+    //         margin-top: 20px;
+    //     }
+
+    // }
+
+  
+    
+    .button{
+        
+        display: block;
+        margin: 0 auto;
+       
+       
+    }
+    .btn{
+        width: 80%;
+        height: 43px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        text-transform: none;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        box-shadow:none;
+        font-weight: bold;
+       
+    }
+    .button-md:hover:not(.disabled-hover){
+        background-color: white;
+        color:#EC2A32;
+    }
+    .skip{
+       float: right;
+       margin-right: 25px;
+        cursor: pointer;
+    
+        color: white;
+    }
+    .toolbar-background{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .header-md::after{
+        background: none;
+    }
+    
+}
+
+.gambar{
+    img{
+       text-align: center;
+       display: table-cell;
+       vertical-align: middle;
+       margin: auto;
+       width: 140px;
+       margin-top: 50px;
+       padding: 23px;
+        margin-bottom: -20px;
+    }
+    .title{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 70px;
+        font-size: 18px;
+    }   
+
+
+
+}

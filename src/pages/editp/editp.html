@@ -1,0 +1,41 @@
+<ion-header>    
+  <ion-navbar class="toolbar-merah">
+    <ion-title>Edit</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="bottom-circle">
+    <div class="avatar">
+      <img src="img/avatar.png" alt="">
+      <h2 class="name">{{userDetails.name}}</h2>
+    </div>
+    <div class="bio">
+      <h5>Edit Bio : </h5>
+      <ion-list class="list">
+        <ion-item>
+          <ion-label><ion-icon name="contact" class="icon-form"></ion-icon> <span class="label">Nama : </span></ion-label>
+          <ion-input [(ngModel)]="nameakun" type="text" value="{{userDetails.name}}" name="name" ></ion-input>
+        </ion-item>  
+      </ion-list>
+      <ion-list class="list">
+        <ion-item>
+          <ion-label><ion-icon name="contact" class="icon-form"></ion-icon> <span class="label">Username : </span></ion-label>
+          <ion-input [(ngModel)]="usernameakun" type="text" value="{{userDetails.username}}" name="username" ></ion-input>
+        </ion-item>  
+      </ion-list>
+      <ion-list class="list">
+        <ion-item>
+          <ion-label><ion-icon name="mail" class="icon-form"></ion-icon> <span class="label">Email : </span></ion-label>
+          <ion-input [(ngModel)]="emailakun" type="email" value="{{userDetails.email}}" name="email" ></ion-input>
+        </ion-item>  
+      </ion-list>
+      <ion-list class="list">
+        <ion-item>
+          <ion-label><ion-icon name="lock" class="icon-form"></ion-icon> <span class="label">Password : </span></ion-label>
+          <ion-input [(ngModel)]="passwordakun" type="password" name="password" ></ion-input>
+        </ion-item>  
+      </ion-list>
+      <button block ion-button class="btn-editp" (click)="updateEntry(name,username,email,password)">EDIT</button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,55 @@
+page-aboutus {
+    
+    .toolbar-merah{
+   
+    }
+   
+    .header-md::after{
+        display: none
+    }
+    .cover{
+        background-color: #ED2B33;
+        width: 100%;
+        height: 130px;
+    }
+    .gambar-form{
+        img{
+            margin-top: -50px;
+            background-color: #ED2B33;
+            box-shadow: 2px 2px 17px #6A6767;
+            
+        }
+        
+    }
+
+
+    ul{
+        padding: 20px;
+        margin-top: 10px;
+        li{
+            list-style: none;
+            padding-left: 7px;
+            padding-bottom: 20px;
+            color: #959595;
+            font-weight: bold;
+        }
+        
+    }
+    .body{
+        p{
+            text-align: center;
+            margin-top: 40px;
+            color: black;
+            font-weight: bold;
+        }
+        .ts{
+            width: 200px;
+            margin-top: -6px;
+            background-color: white;
+            box-shadow: 2px 2px 15px #A8A8A8;
+            border-radius: 3px;
+            padding: 15px;
+        }
+        padding-bottom: 50px;
+    }
+}

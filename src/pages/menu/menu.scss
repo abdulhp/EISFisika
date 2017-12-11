@@ -1,0 +1,44 @@
+page-menu {
+    .toolbar-background{
+        background-color: $warnautama;
+        box-shadow: none;
+      
+    }
+    .header-md::after{
+        background: none;
+    }
+    .button-inner{
+        color:white;
+    }
+    .toolbar-title{
+       text-align: center;
+        margin-left: -30px;
+        color: white;
+    }
+   
+    .col-utama{
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow:2px 2px 20px rgba(196, 189, 189, 0.89);
+        .title{
+            font-size: 17px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: -4px;
+            margin-top: 23px;
+        }
+        img{
+            width: 80px;           
+            margin-right: 20px;
+            float: left;
+            margin-bottom: 10px;
+            padding: 10px;
+            margin-top: 6px;
+        }
+    }
+    .hide{
+        display: none;
+    }
+}
+

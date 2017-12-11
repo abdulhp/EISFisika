@@ -1,0 +1,68 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<ion-header>
+
+  <ion-navbar >
+    <ion-title>
+      MENU
+    </ion-title>
+  </ion-navbar>
+<!--   <ion-navbar *ngIf="isLogged == false">
+    <ion-title>
+      MENU
+    </ion-title>
+  </ion-navbar> -->
+<!-- <ion-navbar *ngIf="isLogged == true">
+    <ion-title>
+      MENU
+    </ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content padding>
+  <div class="menu">
+      <ion-grid>
+        <ion-row>
+            <ion-col col-12 class="col-utama" (click)="bukaMateri()">
+              <div class="gambar-menu">
+                <img src="assets/img/icon/1.png" alt="">
+              </div>
+              <p class="title">MATERI</p>
+              <p class="desc">Materi - materi pilihan</p>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-12  class="col-utama" (click)="bukaQuiz()">
+              <div class="gambar-menu">
+                <img src="assets/img/icon/2.png" alt="">
+              </div>
+              <p class="title">QUIZ</p>
+              <p class="desc">Uji seberapa jauh kemampuan mu disini</p>
+            </ion-col>
+        </ion-row>  
+        
+        <ion-row [class.hide]="isLogged"> 
+          <ion-col col-12  class="col-utama" (click)="bukaProfile()">
+            <div class="gambar-menu">
+              <img src="assets/img/icon/3.png" alt="">
+            </div>
+            <p class="title">PROFILE</p>
+            <p class="desc">Melihat Akun<p>
+          </ion-col>
+      </ion-row>    
+       
+      <ion-row>
+        <ion-col col-12  class="col-utama" (click)="bukaAbout()">
+          <div class="gambar-menu">
+            <img src="assets/img/icon/3.png" alt="">
+          </div>
+          <p class="title">TENTANG KAMI</p>
+          <p class="desc">Seputar tentang pembuat aplikasi EIS Fisika.</p>
+        </ion-col>
+      </ion-row>
+      </ion-grid> 
+     
+  </div>
+ 
+</ion-content>

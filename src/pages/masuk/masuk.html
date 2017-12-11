@@ -1,0 +1,37 @@
+<ion-header><ion-navbar></ion-navbar></ion-header>
+<ion-content padding class="body-form">
+  <div class="header">
+      <div class="gambar gambar-form  ">
+          <img src="assets/img/icon/logo.png" alt="">
+          <p class="title">Masuk</p>
+        </div>
+  </div>
+  <div class="form-login home-form">
+    <ion-list>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="contact" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="text" placeholder="Username" [(ngModel)]="userData.username" name="username"></ion-input>
+      </ion-item>
+      <ion-item class="bungkus-form">
+        <ion-label><ion-icon name="lock" class="icon-form"></ion-icon></ion-label>
+        <ion-input type="password" placeholder="Password" [(ngModel)]="userData.password" name="password"></ion-input>
+      </ion-item>
+      <div class="btn-wrap">
+        <button ion-button class="btn-login" (click)="masuk()">Masuk</button>
+      </div>
+      <span class="opsi-login-lain">
+        Atau
+      </span>
+    </ion-list>
+    <div class="sosmed">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-12 class="fb-log" (click)="logWFB()"> 
+                    <img src="assets/img/fb2.png" alt="" class="fb">  
+                    <p>Masuk dengan Facebook</p>
+                </ion-col>  
+            </ion-row>
+        </ion-grid>
+    </div>
+  </div>
+</ion-content>

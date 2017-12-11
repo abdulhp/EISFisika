@@ -1,0 +1,30 @@
+<!--
+  Generated template for the NilaiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar class="toolbar-merah">
+    <ion-title class="tittle-hasil">Hasil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-card>
+	
+	  <ion-card-header>
+	   <p class="card-header-nilai">Nilai Kamu </p>
+	  </ion-card-header>
+		<ion-card-content>
+			<span class="score" [class.kkm]="iskkm == true " [class.lulus]="iskkm == false">{{ nilaiakhir }}</span>
+			<p class="caption-score">{{ caption }}</p>
+		</ion-card-content>
+	</ion-card>
+	<ion-buttons>
+		<button ion-button (click)="onLoadHome()" block>Kembali</button>
+	</ion-buttons>
+</ion-content>

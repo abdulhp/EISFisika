@@ -1,0 +1,56 @@
+page-profile {
+    .header-md::after{
+        background: none;
+    }
+    .setting{
+        float: right;
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    $size : 50%;
+    .bottom-circle{
+        background-color: $warnautama;
+        height: 40%;
+        width: $size * 2;
+        border-bottom-left-radius: $size * 2;
+        border-bottom-right-radius: $size * 2;
+        position: relative;
+      
+        .avatar img{
+            display: block;
+            margin: 0 auto;
+            width:250px;
+        }
+        .avatar{
+            padding-top: 80px;
+            
+            .name{
+                text-align: center
+            }
+        }
+        .bio{
+            padding: 50px;
+            margin-top: 20px;
+            font-weight: bold;
+
+
+            .list{
+                background-color: #F4F4F4;
+                padding: 10px 20px;
+                border-radius: 15px;
+                
+                span{
+                    float: right;
+                }
+                
+            }
+            .item-md{
+                background-color: transparent;
+                color: #AEAEAE;
+            }
+            
+        }
+        
+        
+    }
+}

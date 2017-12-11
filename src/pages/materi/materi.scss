@@ -1,0 +1,51 @@
+page-materi {
+   
+   
+}
+
+.toolbar-merah{
+    background-color: $warnautama;
+   
+    .toolbar-title{
+        text-align: center;
+         margin-left: -34px;
+         color: white;
+     }
+     .button-inner{
+         color:white;
+     }
+     .toolbar-background{
+        background-color: transparent;
+        box-shadow: none;
+
+       
+    }
+    
+   
+}
+
+
+
+.kolom-opsi{
+    .kotak{
+     box-shadow: 2px 2px 18px #D9D9D9;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+    }
+   img{
+      height: 100px;
+      display: table;
+      margin: 0 auto;
+      padding: 15px;
+   }
+   p{
+       text-align: center;
+       color:black;
+       font-weight: bold;
+   }
+}
+.isi-materi{
+    background-color:white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px grey;     
+}
